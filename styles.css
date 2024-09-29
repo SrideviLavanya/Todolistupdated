@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Background gradient */
+}
+
+.container {
+    max-width: 600px;
+ min-height:1000px;
+    margin: auto;
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Foreground gradient */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: linear-gradient(to right, #e8eaf6, #c5cae9); /* Input gradient */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #28a745, #218838); /* Button gradient */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #218838, #1e7e34); /* Darker gradient on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: linear-gradient(to right, #f9f9f9, #e0e0e0); /* List item gradient */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    background: linear-gradient(to right, #ff4d4d, #ff1a1a); /* Delete button gradient */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+   
+  margin: 10px;
+    padding: 10px;
+  width:60px;
+} 
